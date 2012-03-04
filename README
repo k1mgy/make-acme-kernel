@@ -1,0 +1,6 @@
+make-acme-kernel.sh
+4 MARCH 2012
+
+This is a bash script that automates the process of creating a kernel for the ACME Systems Fox G20.
+
+
