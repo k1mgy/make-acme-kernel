@@ -3,4 +3,16 @@ make-acme-kernel.sh
 
 This is a bash script that automates the process of creating a kernel for the ACME Systems Fox G20.
 
+It is configured for kernel 3.2.8 but may be easily changed for different versions.
 
+Patches are provided by dougg and ACME Systems.
+
+There are two .config file options.  One, provided by me, enables all available serial ports on the G20.  
+Another, by dougg, has fewer options enabled.  Of course, you can change the kernel options when the make config
+step happens, early in the build process.
+
+This script was built and tested under Ubuntu 11.10.  It may work just fine with other distributions and environments, but
+has not been widely tested.  Of course, building a kernel for the G20 will require installation of the cross-compiler
+environment and toolchain.  See this article for more: www.acmesystems.it/arm9_toolchain
+
+/m
